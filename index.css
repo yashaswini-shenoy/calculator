@@ -1,0 +1,162 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:url('http://1.bp.blogspot.com/-1hdoVTptp3M/UG7zNch-DuI/AAAAAAAALHo/i9_TpMrH3go/s1600/Colorful+Wallpapers.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+#container
+{
+  background-color: powderblue ;
+  height:580x;
+  width:400px;
+  outline:none;
+  border-radius:10px;
+  margin:auto auto;
+  margin-top:150px;
+  display:block;
+}
+#calculator
+{
+    height:auto;
+    width:100%;
+    text-align:left;
+    padding:10px 0;
+
+}
+.empty,.number,.operator,.operator-class{
+    border:purple;
+    height:75px;
+    width:75px;
+    margin:10px;
+    border-radius:50%;
+    outline:none;
+}
+.empty:hover,.number:hover,.operator:hover
+{
+    cursor: pointer;
+}
+
+#history,#result
+{ padding:10px;
+    height:30px;
+    width:100%;
+    font-size:20px;
+    text-align:right;
+    /* visibility:hidden; */
+}
+#result
+{   height:60px;
+    font-size:50px;
+}
+.empty
+{
+    visibility: hidden;
+}
+button:nth-child(4)
+{
+    background-color: salmon;
+}
+button:nth-child(8)
+{
+    background-color: blue;
+}
+button:nth-child(12)
+{
+    background-color: orangered;
+}
+button:nth-child(16)
+{
+    background-color:rgb(32, 196, 218);
+}
+button:nth-child(20)
+{
+    background-color: purple;
+}
+#c
+{
+    background-color:black;
+    color:white;
+}
+#ce
+{
+    background-color:pink;
+}
+#mod
+{
+    background-color:orange;
+}
+nav{
+    /* float:right; */
+    display:block;
+    background:black;
+    margin-top:0;
+    height: 70px;
+    width:100%;
+    
+    
+}
+nav ul{
+    float:right;
+    list-style-type: none;
+}
+nav #before .before{
+    float:left;
+    padding:10px;
+    margin: 15px 30px;
+    color:white;
+}
+nav button{
+  background:none;
+  border:none;
+  color:white;
+  outline:none;
+  height:30px;
+  width:70px;
+  
+}
+nav button:hover{
+background-color:white;
+color:black;
+border-radius:10px;
+
+}
+#aft{
+  display:none;
+  color:black;
+}
+nav #before .before button:hover#aft{
+    display:block;
+    background-color:red;
+
+}
+footer{
+    text-align:center;
+    background-size:cover;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(41, 39, 39);
+    height:300px;
+    margin-top:40px;
+    text-align:center;
+
+
+}
+footer div{
+    margin:20px;
+    color:black;
+    width:90%;
+    height:auto;
+}
+footer div a, footer div
+{
+ color:white;
+ text-decoration:none;
+ white-space: pre;
+}
