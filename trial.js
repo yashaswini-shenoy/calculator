@@ -1,5 +1,5 @@
 var t=false;
-var ope=2;
+var ope=4;
 function getNumber()
 {
   var a=document.getElementsByClassName("number");
